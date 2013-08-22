@@ -471,6 +471,7 @@ public class LocationManagerService extends ILocationManager.Stub {
         }
 
         // bind to geofence provider
+	/**
         GeofenceProxy provider = GeofenceProxy.createAndBind(mContext,
                 com.android.internal.R.bool.config_enableGeofenceOverlay,
                 com.android.internal.R.string.config_geofenceProviderPackageName,
@@ -491,6 +492,7 @@ public class LocationManagerService extends ILocationManager.Stub {
             mGeoFencer = null;
             mGeoFencerEnabled = false;
         }
+	*/
 
     }
 
